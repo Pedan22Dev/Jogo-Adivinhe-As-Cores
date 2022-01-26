@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+body {
+    margin: 0;
+    background: #6efdc1;
+    color: #fff;
+    font-family: 'Roboto Slab', Courier, monospace;
+}
+
+h1 {
+    margin: 0;
+    background: #D1345B;
+    font-weight: normal;
+    text-align: center;
+    font-size: 300%;
+}
+
+#rgbSpan {
+    font-size: 200%;
+}
+
+a {
+    
+    text-decoration: none;
+    font-family: 'Roboto Slab', Courier, monospace;
+    color: #D1345B;
+    font-size: 1,5vh;
+    font-weight: 700;
+    border: none;
+    height: 100%;
+    position: relative;
+}
+
+a:hover {
+    color: white;
+    ;
+    transition: 400ms;
+    cursor: pointer;
+    height: 100%;
+}
+
+.line {
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    background: #FFC145;
+    padding: 0;
+    
+}
+
+.status {
+    color: #D1345B;
+    width: 20%;
+    display: inline-block;
+    font-weight: 900;
+
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: #D1345B
+    
+}
+
+#hardBtn {
+    
+    margin-right: 2vh;
+}
+
+button:hover {
+    color: white;
+    background: #D1345B;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+/*.mainBox {
+    width: 50vw;
+    padding-top: 8vh;
+    margin: 0 auto;
+
+}
+
+.box {
+    
+    width: 30%;
+    background: #fff;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    border-radius: 20px;
+    float: left;
+}
+*/
+
+.mainBox {
+  align-items: center;
+  justify-content: center;  
+  margin: 0 auto;
+  display: flex;
+  min-width: 40vw;
+  flex-direction: row;
+}
+
+.box {
+    
+    width: 10vw;
+    background: #fff;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    border-radius: 20px;
+    float: left;
+}
+
+.box:hover {
+    border: white solid 10px;
+    transition: 300ms;
+    cursor: pointer;
+}
